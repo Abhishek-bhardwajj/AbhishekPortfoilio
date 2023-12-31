@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Bhardwaj</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <script src="https://kit.fontawesome.com/51eb179b30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <a href="#header"><img src="./images/logo.png" class="logo" alt="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Future Software Engineer</p>
+                <h1>Hi👋, I'm <span>Abhishek</span><br>Bhardwaj From Mathura :)</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------About----------------------- -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/sc.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me :)</h1>
+                <p>Hey 👋, I'm a programmer and developer who eagerly try to do work with new innovations and
+                    Technologies. Good command of English and staying motivated to enhance my skill set through proper
+                    guidance and challenging projects.</p>
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Coding/Programming</span><br>Problem Solving in JAVA</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>Machine Learning</span><br>Learning building and training models</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - 2024</span><br>Bachelor of Technology(CSE) from GLA University Mathura
+                            CPI-7.88/10</li>
+                        <li><span>2019 - 2020</span><br>Senior Secondary (12th) from Arcadian Public School, Bajna,
+                            Mathura</li>
+                        <li><span>2017 - 2018</span><br>Higher Secondary (10th) from SKS Public School,Bulakpur, Mathura
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June2022 - July2022</span><br>Web Develepment Intern at GLA University</li>
+                        <li><span>August2021 - November2022</span><br>Campus Ambassdor at Viral Fission</li>
+                        <li><span>June2022 - July2022</span><br>Completed Google Cloud Facilitator Programme</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------Projects(services)------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Projects :)</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Underwater Image Enhancement</h2>
+                    <p><br><br>In this project we are trying to enhance the quality of the Underwater images.
+                        <br>Technology that we have used is Python and Digital image Processing techniques</p>
+                    <a href="https://github.com/Abhishek-bhardwajj/IMPLEMENTATION-OF-UNDERWATER-IMAGE-ENHANCEMENT"
+                        target="_blank">Here's the Code</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Travel Blog</h2>
+                    <p><br><br>We have made this project to help people wo are planning for trip by other person's
+                        experience <br>Tech stack used here are Html, CSS, JS, Mongodb, etc.</p>
+                    <a href="https://github.com/Abhishek-bhardwajj/travel_buddy" target="_blank">Here's the Code</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Rhythm</h2>
+                    <p><br><br>This is a music streaming project. It helps the user to listen to the best quality of
+                        music at a one place. <br>Technologies used are HTML, CSS, JS, Bootstrap, api.</p>
+                    <a href="#" target="_blank">Here's the Code</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Portfolio Website</h2>
+                    <p><br><br>It is my Portfolio Website through which anyone can get the relevant information about
+                        me. <br>Technologies used are HTML, CSS, JS.</p>
+                    <a href="#" target="_blank">Here's the Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------profiles-------------------- -->
+    <div id="profile">
+        <div class="container">
+            <h1 class="sub-title">Other Profiles:)</h1>
+            <div class="profile-list">
+                <div class="profile">
+                    <img src="./images/leetcode.png" alt="leetcode">
+                    <div class="layer">
+                        <h3>LEETCODE Profile</h3>
+                        <p>Do check it out by clicking the below icon.</p>
+                        <a href="https://leetcode.com/abhishek6252/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="./images/hackerrank.png" alt="leetcode">
+                    <div class="layer">
+                        <h3>HACKERRANK Profile</h3>
+                        <p>Do check it out by clicking the below icon.</p>
+                        <a href="https://www.hackerrank.com/profile/_2D_201500016" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="./images/codechef.jpeg" alt="leetcode">
+                    <div class="layer">
+                        <h3>CODECHEF Profile</h3>
+                        <p>Do check it out by clicking the below icon.</p>
+                        <a href="https://www.codechef.com/abhishek_6252" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Abhishek-bhardwajj" class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+    <!-- ------------------contact------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sharmaashu281201@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abhishek-bhardwaj-3a638222a/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Abhishek-bhardwajj" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/abhiiishek.bhardwaj/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="./images/AbhishekBhardwaj_CSE_GLAU.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6 placeholderYour Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Abhishek. Made with <i class="fa-solid fa-heart"></i>..</p>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('#header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const offset = document.querySelector('#navbar').offsetHeight;
+                window.scrollTo({
+                    top: target.offsetTop - offset,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Scroll to home section on page load
+    window.onload = function () {
+        const homeSection = document.querySelector('#header');
+        const offset = document.querySelector('#navbar').offsetHeight;
+        window.scrollTo({
+            top: homeSection.offsetTop - offset,
+            behavior: 'smooth'
+        });
+    };
+});
+
+
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-300px"
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSntRkE1wXRzuApYhptIKPsDl3sodW5dzpqfots5G2us1s74bxrgsBqoKzZNz8RdSF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
